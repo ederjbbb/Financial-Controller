@@ -8,6 +8,8 @@ export const TransactionsContainer = styled.main`
   padding: 0 1.5rem;
 
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   justify-content: space-between;
   align-items: center;
 `
@@ -16,7 +18,7 @@ export const TransactionsTable = styled.table`
   width: 100%;
   border-collapse: separate;
   border-spacing: 0 0.5rem;
-  margin-top: 1.5rem;
+  /* margin-top: 1.5rem; */
 
   td {
     padding: 1.25rem 2rem;
@@ -25,6 +27,7 @@ export const TransactionsTable = styled.table`
     &:first-child {
         border-top-left-radius: 8px;
         border-bottom-left-radius: 8px;
+        
     }
     &:last-child {
         border-top-right-radius: 8px;
