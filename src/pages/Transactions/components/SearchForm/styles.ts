@@ -1,10 +1,10 @@
 import styled from 'styled-components'
+import * as Dialog from '@radix-ui/react-dialog'
 
 export const SearchFormContainer = styled.form`
   display: flex;
   gap: 1rem;
   width: 100%;
-  /* margin-bottom: -20px; */
 
   input {
     flex: 1;
@@ -23,6 +23,7 @@ export const SearchFormContainer = styled.form`
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    width: 155px;
 
     border: 0;
     padding: 1rem;
