@@ -4,9 +4,9 @@ import * as Dialog from '@radix-ui/react-dialog'
 import { NewTransactionModal } from '../NewTransactionModel'
 import { TransactionsContext } from '../../contexts/TransactionsContext'
 import { useContext } from 'react'
-import { Activity } from 'phosphor-react'
 
 export function Header() {
+  // eslint-disable-next-line no-unused-vars
   const { transactions } = useContext(TransactionsContext)
   return (
     <HeaderContainer>

@@ -1,4 +1,3 @@
-import { SummaryCard } from './styles'
 import styled, { css } from 'styled-components'
 
 export const SummaryContainer = styled.section`

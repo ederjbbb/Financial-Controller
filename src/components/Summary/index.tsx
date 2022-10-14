@@ -1,12 +1,5 @@
-import { access } from 'fs'
-import {
-  Activity,
-  ArrowCircleDown,
-  ArrowCircleUp,
-  CurrencyDollar,
-} from 'phosphor-react'
-import { useContext } from 'react'
-import { TransactionsContext } from '../../contexts/TransactionsContext'
+import { ArrowCircleDown, ArrowCircleUp, CurrencyDollar } from 'phosphor-react'
+
 import { useSummary } from '../../hooks/useSummary'
 import { priceFormatter } from '../../utils/formatted'
 import { SummaryCard, SummaryContainer } from './styles'
