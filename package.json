@@ -14,6 +14,7 @@
     "@hookform/resolvers": "^2.9.8",
     "@radix-ui/react-dialog": "^1.0.0",
     "@radix-ui/react-radio-group": "^1.0.0",
+    "axios": "^1.1.2",
     "D": "^1.0.0",
     "eslint": "^8.24.0",
     "phosphor": "^0.7.1",
